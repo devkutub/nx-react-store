@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-react-node/orders": ["libs/orders/src/index.ts"],
+      "@nx-react-node/products": ["libs/products/src/index.ts"],
+      "@nx-react-node/shared-ui": ["libs/shared/ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
